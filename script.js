@@ -142,6 +142,16 @@ console.log(newArray14);
 
 // #15
 
+let fruits = ["orange", "banana", "kiwi"];
+
+console.log(fruits.length);
+fruits.push("apple", "pineapple");
+fruits.unshift("watermelon");
+console.log(fruits.length);
+fruits.splice(2, 0, "mango");
+let slicedFruits = fruits.slice(1, -1);
+console.log(slicedFruits.length);
+
 // #16
 let array16 = [1, 2, 3, 4, 5];
 let newArray16 = array16.splice(2, 0, "a", "b", "c");
